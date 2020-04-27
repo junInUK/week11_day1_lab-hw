@@ -31,7 +31,7 @@ public class CalculatorTest {
 
     @Test
     public void divide(){
-        int result = calculator.divide(6,2);
-        assertEquals(3,result);
+        double result = calculator.divide(6.0,2.0);
+        assertEquals(3.0,result,0.01);
     }
 }
